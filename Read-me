@@ -1,1 +1,15 @@
-The repository dedicated toa project of pairing with N3LO(450) initiated by Francesca Sammarruca.
+The repository dedicated to a project of pairing with N3LO(450) initiated by Francesca Sammarruca.
+
+
+Notes:
+rho.f90: produces solutions df(mu) for given mu.
+
+Main_TL.f90: produces solutions df(kf) for given kf
+
+vn3lo.f90: wrapper for n3lo450.f90 (which is actually written in F77). 
+
+To implement:
+
+1)a Makefile
+
+2) merge rho.f90 and Main_TL_2parts.f90
